@@ -342,7 +342,7 @@ section {
   justify-content: space-around;
 }
 .details-container.color-container.skySight {
-  background-image: url("./skySight-img.jpg");
+  background-image: url("./assets/skySIght-img.jpg");
   background-size: cover;
   background-position: center;
   /* Optional: Set a specific height if needed */
