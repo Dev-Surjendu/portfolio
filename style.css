@@ -303,7 +303,6 @@ section {
   text-align: center;
 }
 
-
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -341,6 +340,16 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+}
+.details-container.color-container.skySight {
+  background-image: url("./skySight-img.jpg");
+  background-size: cover;
+  background-position: center;
+  /* Optional: Set a specific height if needed */
+  /* height: 300px; */
+}
+.sky-container {
+  /* height: 30vh; */
 }
 
 article {
@@ -388,6 +397,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 20rem;
 }
 
 .contact-info-upper-container {

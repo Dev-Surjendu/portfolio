@@ -79,12 +79,8 @@
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="section__pic-container" style="margin-right: 2rem;">
-          <img
-            src="./myPic.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
+        <div class="section__pic-container" style="margin-right: 2rem">
+          <img src="./myPic.jpg" alt="Profile picture" class="about-pic" />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
@@ -240,33 +236,49 @@
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <h1 class="title">Main Project</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">SkySight</h2>
+        <div class="about-containers sky-container">
+          <div
+            class="details-container color-container skySight"
+            style="padding: 2rem 0"
+          >
+            <h2
+              class="experience-sub-title project-title"
+              style="color: #fff; font-family: Sofia; font-size: 2rem"
+            >
+              SkySight
+            </h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/Dev-Surjendu/SkySight'"
+                style="
+                  color: #fff;
+                  font-size: 1rem;
+                  padding: 1rem;
+                  border: 3px solid #fff;
+                "
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://skysight-v2.vercel.app/'"
+                style="
+                  color: #fff;
+                  font-size: 1rem;
+                  padding: 1rem;
+                  border: 3px solid #fff;
+                "
               >
                 Live Demo
               </button>
             </div>
           </div>
+        </div>
+        <h1 class="title">Other Projects</h1>
+        <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -286,6 +298,30 @@
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://instantech.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">AstroNest</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Dev-Surjendu/AstroNest'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://astronest.vercel.app/'"
               >
                 Live Demo
               </button>
