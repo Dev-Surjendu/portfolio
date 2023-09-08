@@ -441,3 +441,99 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Base styles that apply to all devices already provided above */
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+  /* Hide desktop navigation */
+  #desktop-nav {
+    display: none;
+  }
+
+  /* Show hamburger menu */
+  #hamburger-nav {
+    display: flex;
+  }
+
+  /* Adjust button container for vertical layout */
+  .btn-container {
+    flex-direction: column;
+  }
+
+  /* Adjust button margins */
+  .btn {
+    margin-bottom: 10px;
+  }
+
+  /* Adjust section container for vertical layout */
+  .section-container,
+  .experience-details-container,
+  .about-containers {
+    flex-direction: column;
+  }
+
+  /* Adjust details container margins */
+  .details-container {
+    margin-bottom: 20px;
+  }
+
+  /* Adjust margins for various elements */
+  section {
+    margin: 0 2rem;
+  }
+
+  /* Adjust image sizes for better mobile viewing */
+  .section__pic-container {
+    height: 200px;
+    width: 200px;
+  }
+
+  .about-pic {
+    max-width: 90%;
+  }
+
+  /* Adjust title size for better mobile viewing */
+  .title {
+    font-size: 2rem;
+  }
+
+  /* Adjust navigation link sizes for mobile */
+  .nav-links {
+    font-size: 1rem;
+  }
+
+  /* Adjust project images for mobile */
+  .project-img {
+    max-width: 100%;
+  }
+  .about-pic {
+    display: block;
+    margin: 20px auto 0 auto; /* Adjust 20px to the desired margin value */
+    max-width: 90%;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #about {
+    margin-top: 20rem;
+  }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Adjust some styles for tablets if needed */
+
+  /* Example: Adjust margins for sections on tablets */
+  section {
+    margin: 0 4rem;
+  }
+
+  /* Example: Adjust title size for tablets */
+  .title {
+    font-size: 2.5rem;
+  }
+}
