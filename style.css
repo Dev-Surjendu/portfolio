@@ -345,7 +345,18 @@ section {
   background-image: url("./assets/skySIght-img.jpg");
   background-size: cover;
   background-position: center;
-  /* height: 15rem; */
+  height: 15rem;
+  display: flex;
+  flex-direction: column; /* stacks children vertically */
+  justify-content: center; /* center children vertically */
+  align-items: center; /* center children horizontally */
+  text-align: center; /* to center text and inline-level elements */
+}
+
+/* Additional styling for the container wrapping your buttons to keep them next to each other */
+.btn-container {
+  display: flex;
+  gap: 1rem; /* space between buttons */
 }
 
 article {
@@ -393,7 +404,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 20rem;
+  margin-top: 30rem;
 }
 
 .contact-info-upper-container {
@@ -525,6 +536,9 @@ footer p {
   }
   .title {
     font-size: 2rem;
+  }
+  .details-container {
+    padding: 0.5rem;
   }
 }
 
