@@ -345,11 +345,7 @@ section {
   background-image: url("./assets/skySIght-img.jpg");
   background-size: cover;
   background-position: center;
-  /* Optional: Set a specific height if needed */
-  /* height: 300px; */
-}
-.sky-container {
-  /* height: 30vh; */
+  height: 15rem;
 }
 
 article {
@@ -511,7 +507,6 @@ footer p {
   .about-pic-container {
     text-align: center;
     width: 100%; /* Ensure the container takes full width */
-    
   }
   .section__pic-container img,
   .about-pic {
