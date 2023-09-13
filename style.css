@@ -445,7 +445,7 @@ footer p {
 /* Base styles that apply to all devices already provided above */
 
 /* Mobile styles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   /* Hide desktop navigation */
   #desktop-nav {
     display: none;
@@ -490,7 +490,7 @@ footer p {
   }
 
   .about-pic {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   /* Adjust title size for better mobile viewing */
@@ -507,9 +507,16 @@ footer p {
   .project-img {
     max-width: 100%;
   }
+  .section__pic-container,
+  .about-pic-container {
+    text-align: center;
+    width: 100%; /* Ensure the container takes full width */
+    
+  }
+  .section__pic-container img,
   .about-pic {
     display: block;
-    margin: 20px auto 0 auto; /* Adjust 20px to the desired margin value */
+    margin: 20px auto; /* Centers the image */
     max-width: 90%;
   }
   .btn-container {
@@ -520,6 +527,9 @@ footer p {
   }
   #about {
     margin-top: 20rem;
+  }
+  .title {
+    font-size: 2rem;
   }
 }
 
