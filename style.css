@@ -156,6 +156,7 @@ section {
   min-height: fit-content;
 }
 
+
 .section-container {
   display: flex;
 }
@@ -318,7 +319,9 @@ section {
 
 #experience {
   position: relative;
+  height: 80vh;
 }
+
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
@@ -403,7 +406,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 60vh;
   margin-top: 30rem;
 }
 
