@@ -345,7 +345,7 @@ section {
   background-image: url("./assets/skySIght-img.jpg");
   background-size: cover;
   background-position: center;
-  height: 15rem;
+  /* height: 15rem; */
 }
 
 article {
