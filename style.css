@@ -350,13 +350,11 @@ section {
   background-position: center;
   height: 15rem;
   display: flex;
-  flex-direction: column; /* stacks children vertically */
-  justify-content: center; /* center children vertically */
-  align-items: center; /* center children horizontally */
-  text-align: center; /* to center text and inline-level elements */
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
 }
-
-/* Additional styling for the container wrapping your buttons to keep them next to each other */
 .btn-container {
   display: flex;
   gap: 1rem; /* space between buttons */
